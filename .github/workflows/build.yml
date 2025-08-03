@@ -29,7 +29,7 @@ jobs:
           west build -s app -d build/left -b nice_nano_v2 -- -DSHIELD=custom_direct_gpio_left
           west build -s app -d build/right -b nice_nano_v2 -- -DSHIELD=custom_direct_gpio_right
       - name: Upload firmware
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: firmware
           path: |
