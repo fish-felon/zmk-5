@@ -1,0 +1,5 @@
+# ZMK build configuration
+board: nice_nano_v2
+shields:
+  - custom_direct_gpio_left
+  - custom_direct_gpio_right
